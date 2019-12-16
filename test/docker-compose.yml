@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  test-ubuntu:
+    build: ubuntu
+    volumes:
+      - ./ubuntu/app:/app
